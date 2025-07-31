@@ -1,0 +1,14 @@
+{
+  "name": "final_exam",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass scss/bootstrap.scss css/bootstrap.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.7"
+  }
+}
