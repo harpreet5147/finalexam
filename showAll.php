@@ -18,7 +18,7 @@ $result = mysqli_query($conn, $sql);
 echo "<h3>All Records</h3>";
 if (mysqli_num_rows($result) > 0) {
     while ($row = mysqli_fetch_assoc($result)) {
-        echo  htmlspecialchars($row['message']) . "<br>";
+        echo  "string_id: " . $row['string_id'] . " / Message: " . htmlspecialchars($row['message']) . "<br>";
     }
 } else {
     echo "no records.";
